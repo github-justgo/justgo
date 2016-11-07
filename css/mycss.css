@@ -1,0 +1,313 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: '微软雅黑', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 16px;
+    background: rgba(222, 222, 222, .7);
+    border-bottom: 1px outset rgba(222, 222, 222, .5);
+    box-shadow: 0px 1px rgba(0, 0, 0, .4);
+}
+
+.topnav a {
+    background: rgba(22, 22, 22, .1);
+    color: #000;
+}
+
+
+/* start home page */
+
+.page-home {
+    padding: 50px 0;
+    height: 855px;
+    text-align: center;
+    background: url('http://ofum9ks20.bkt.clouddn.com/2205205M9-8.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bg-overlay1 {
+    height: 855px;
+    background: rgba(22, 22, 22, .25);
+}
+
+.home-text {
+    /*   position: relative; */
+    height: 855px;
+    padding: 15% 0;
+}
+
+.home-text h1 {
+    font-size: 6rem;
+    letter-spacing: 30px;
+    color: rgba(255, 255, 255, .9);
+    text-shadow: 5px 5px 5px #000;
+}
+
+.home-text h3 {
+    letter-spacing: 10px;
+    color: rgba(222, 222, 222, .9);
+    text-shadow: 2px 2px 5px #000;
+}
+
+.home-text hr,
+.home-hr {
+    border-bottom: 1px solid rgba(22, 22, 22, .25);
+    border-top: 2px solid rgba(222, 222, 222, .25);
+}
+
+.home-text ul li a,
+.bg-overlay4 ul li a {
+    display: inline-block;
+    border: 2px outset rgba(22, 22, 22, .8);
+    text-shadow: 1px 1px 1px rgba(22, 22, 22, .8);
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, .6);
+    transition: 0.3s;
+}
+
+.home-text ul li a:hover,
+.bg-overlay4 ul li a:hover {
+    background: rgba(22, 22, 22, .9);
+    color: rgba(250, 250, 250, .9);
+    transform: scale(1.1);
+    transition: 0.2s;
+    border: 2px outset rgba(22, 22, 22, .9);
+}
+
+.home-text ul li span,
+.bg-overlay4 ul li span {
+    letter-spacing: 2px;
+}
+
+@media(max-width:767px) {
+    .home-text {
+        border-bottom: 10%;
+    }
+    .home-text h1 {
+        font-size: 3rem;
+    }
+    .home-text h3 {
+        font-size: 2rem;
+    }
+    .home-text ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* end home page */
+
+
+/* start about page */
+
+.page-about {
+    height: 855px;
+    background: url("http://ofum9ks20.bkt.clouddn.com/220520Ja-9.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bg-overlay2 {
+    height: 855px;
+    background: rgba(222, 222, 222, .1);
+    margin-top: -50px;
+    color: #000;
+}
+
+.bg-overlay2 h2,
+.bg-overlay3 h2,
+.bg-overlay4 h2 {
+    margin-top: 100px;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    text-shadow: 1px 2px 3px rgba(22, 22, 22, .5);
+}
+
+.bg-overlay2 p {
+    margin-top: 30px;
+    font-size: 1.6rem;
+}
+
+.bg-overlay2 hr {
+    border: none;
+    border-bottom: 1px outset rgba(22, 22, 22, .5)
+}
+
+.bg-overlay2 img {
+    margin-top: 150px;
+    border-radius: 10%;
+    border: 3px outset rgba(222, 222, 222, .9);
+    width: 70%;
+    box-shadow: 5px 5px 3px rgba(22, 22, 22, .5);
+}
+
+@media(max-width:767px) {
+    .bg-overlay2 img {
+        width: 40%;
+        margin-top: 20px;
+    }
+}
+
+
+/* end about page */
+
+
+/* start portfolio page */
+
+.page-portfolio {
+    height: 855px;
+    background: url("http://ofum9ks20.bkt.clouddn.com/2205202301-2.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bg-overlay3 {
+    height: 855px;
+    background: rgba(222, 222, 222, .2);
+    margin-top: -50px;
+    color: #000;
+}
+
+
+/* h2参见line97 */
+
+.items {
+    /*   margin: 5px 10px; */
+    height: 250px;
+    background: rgba(22, 22, 22, .8);
+    color: rgba(22, 22, 22, 0.8);
+}
+
+.bg-imgs {
+    height: 200px;
+    line-height: 200px;
+    font-size: 10rem;
+    text-align: center;
+    line-height: 200px;
+    color: rgba(22, 22, 22, .0);
+}
+
+.bg-imgs i {
+    line-height: 200px;
+}
+
+.items span {
+    color: #fff;
+}
+
+.bg-imgs:hover {
+    color: rgba(255, 255, 255, .9);
+    transition: .5s;
+}
+
+.bg-img1 {
+    background: url("http://ofum9ks20.bkt.clouddn.com/calculator.png");
+    background-size: cover;
+}
+
+.bg-img2 {
+    background: url("http://ofum9ks20.bkt.clouddn.com/dm.jpg");
+    background-size: cover;
+}
+
+.bg-img3 {
+    background: url("http://ofum9ks20.bkt.clouddn.com/220520A30-10.jpg");
+    background-size: cover;
+}
+
+.bg-img4 {
+    background: url("http://ofum9ks20.bkt.clouddn.com/220520A30-10.jpg");
+    background-size: cover;
+}
+
+.bg-img5 {
+    background: url("http://ofum9ks20.bkt.clouddn.com/220520A30-10.jpg");
+    background-size: cover;
+}
+
+.bg-img6 {
+    background: url("http://ofum9ks20.bkt.clouddn.com/220520A30-10.jpg");
+    background-size: cover;
+}
+
+@media(max-width:991px) {
+    .page-portfolio {
+        height: 1050px;
+    }
+    .bg-overlay3 {
+        height: 1050px;
+    }
+}
+
+@media(max-width:767px) {
+    .page-portfolio {
+        height: 1700px;
+    }
+}
+
+
+/* end page portfolio */
+
+
+/* start page contact */
+
+.page-contact {
+    height: 855px;
+    background: url("http://ofum9ks20.bkt.clouddn.com/220520OR-3.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bg-overlay4 {
+    height: 855px;
+    background: rgba(222, 222, 222, .3);
+    margin-top: -50px;
+    color: #000;
+}
+
+.bg-overlay4 p {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.bg-overlay4 ul {
+    margin-top: 140px;
+}
+
+.bg-overlay4 ul li {
+    display: block;
+    margin-top: 20px;
+}
+
+
+/* end page contact */
+
+
+/* start page footer */
+
+footer {
+    background: rgba(222, 222, 222, .8);
+    height: 130px;
+}
+
+footer ul {
+    margin-top: 30px;
+}
+
+footer ul a {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, .7);
+}
+
+
+/* end footer */
